@@ -1,0 +1,75 @@
+.remote-header-wrapper {
+  background-color: #F8F6F0;
+  padding: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  height: 60px;
+  max-width: 100%;
+}
+
+.nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 8px;
+  justify-content: flex-end;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #242323;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.05em;
+  line-height: 1.2em;
+  padding: 6px 12px;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-menu a:hover {
+  background-color: #1A3D7C;
+  color: #F8F6F0;
+}
+
+.contact-info {
+  text-align: right;
+  font-size: 14px;
+  font-weight: bold;
+  color: #242323;
+}
+
+.contact-info a {
+  color: #242323;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .header-top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-menu {
+    justify-content: center;
+  }
+  .contact-info {
+    text-align: center;
+  }
+}
