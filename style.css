@@ -20,8 +20,8 @@
 
 .logo img {
   width: 332px;
-  height: 117px;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
 }
 
 .nav-menu {
