@@ -19,8 +19,9 @@
 }
 
 .logo img {
-  height: 60px;
-  max-width: 100%;
+  width: 332px;
+  height: 117px;
+  object-fit: cover;
 }
 
 .nav-menu {
