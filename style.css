@@ -1,6 +1,6 @@
 .remote-header-wrapper {
   background-color: #F8F6F0;
-  padding: 0;
+  padding: 0; /* remove default spacing */
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   border-bottom: 1px solid #ddd;
