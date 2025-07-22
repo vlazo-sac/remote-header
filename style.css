@@ -35,11 +35,14 @@ html, body {
   padding-right: 48px; /* Optional: adds symmetry */
 }
 
+.logo {
+  margin-left: 48px; /* ✅ More robust and scalable */
+}
+
 .logo img {
   width: 332px;
   height: auto;
   object-fit: contain;
-  margin-left: 48px;
 }
 
 .nav-menu {
