@@ -31,12 +31,12 @@ html, body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding-left: 48px; /* ← Add this */
+  padding-left: 48px; /* Add this */
   padding-right: 48px; /* Optional: adds symmetry */
 }
 
 .logo {
-  margin-left: 48px; /* ✅ More robust and scalable */
+  margin-left: 48px; /* More robust and scalable */
 }
 
 .logo img {
