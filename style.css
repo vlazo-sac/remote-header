@@ -23,7 +23,7 @@ html, body {
   max-width: 1511px;
   margin: 0 auto;
   width: 100%;
-  padding-inline: clamp(8px, 2vw, 40px); 
+  padding-inline: clamp(0px, 2vw, 40px); 
 }
 
 .header-top {
@@ -31,7 +31,7 @@ html, body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding-inline: clamp(16px, 6vw, 48px); 
+  padding-inline: clamp(0px, 4vw, 50px); 
 }
 
 .logo img {
@@ -69,11 +69,15 @@ html, body {
   .header-top {
     flex-direction: column;
     align-items: flex-start; 
-    padding-inline: clamp(8px, 4vw, 16px); 
+    padding-inline: clamp(0px, 4vw, 16px); 
   }
 
+  .header-inner {
+    padding-inline: clamp(0px, 2vw, 16px);
+  }
+  
   .logo {
-    margin-left: clamp(8px, 4vw, 16px);
+    margin-left: clamp(0px, 4vw, 16px);
   }
 
   .nav-menu {
