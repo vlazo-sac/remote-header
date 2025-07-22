@@ -8,7 +8,7 @@
 .header-inner {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0;
   max-width: 1511px;     /* Match Wix width */
   margin: 0 auto;         /* Center on screen */
   width: 100%;            /* Responsive */
