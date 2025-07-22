@@ -16,12 +16,6 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.header-top,
-.nav-menu,
-.logo {
-  outline: 1px dashed red;
-}
-
 .header-columns {
   display: flex;
   justify-content: space-between;
