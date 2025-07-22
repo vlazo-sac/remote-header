@@ -23,7 +23,7 @@ html, body {
   max-width: 1511px;
   margin: 0 auto;
   width: 100%;
-  padding-inline: clamp(16px, 5vw, 88px); 
+  padding-inline: clamp(16px, 5vw, 100px); 
 }
 
 .header-top {
