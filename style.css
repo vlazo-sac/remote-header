@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #F8F6F0; /* Match your header background */
+}
+
 .remote-header-wrapper {
   background-color: #F8F6F0;
   padding: 0; /* Changed from 10px 20px */
