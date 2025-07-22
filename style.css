@@ -43,7 +43,7 @@ html, body {
 .nav-menu {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
   margin-left: auto; 
   margin-top: 0; 
 }
@@ -64,7 +64,7 @@ html, body {
 .nav-menu a:hover {
   background-color: #1A3D7C;
   color: #F8F6F0;
-  border-radius: 20px;
+  border-radius: 40px;
   font-weight: 100;
   transition: background-color 0.3s ease, color 0.3s ease, font-weight 0.3s ease;
 }
