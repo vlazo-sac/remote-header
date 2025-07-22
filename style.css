@@ -20,10 +20,9 @@ html, body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-inline: clamp(0px, 4vw, 60px);
+  padding: 24px clamp(0px, 4vw, 60px); /* top/bottom + left/right */
   max-width: 1511px;
   margin: 0 auto;
-  height: 140px; /* match Wix vertical space */
 }
 
 .header-logo {
@@ -64,23 +63,18 @@ html, body {
 }
 
 @media (max-width: 767px) {
-  .header-top {
-    flex-direction: column;
-    align-items: flex-start; 
-    padding-inline: 0; 
-  }
-
-  .header-inner {
+  .header-columns {
     padding-inline: 0;
   }
-  
-  .logo {
-    margin-left: 0;
+
+  .header-logo {
     padding-left: 0;
+    margin-left: 0;
   }
 
   .nav-menu {
     justify-content: center;
     width: 100%;
+    margin-top: 16px; /* optional */
   }
 }
