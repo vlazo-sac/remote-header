@@ -66,6 +66,7 @@ html, body {
   color: #F8F6F0;
   border-radius: 40px;
   font-weight: 100;
+  padding: 6px 20px;
   transition: background-color 0.3s ease, color 0.3s ease, font-weight 0.3s ease;
 }
 
