@@ -22,7 +22,7 @@ html, body {
   justify-content: space-between;
   max-width: 1511px;
   margin: 0 auto;
-  padding-block: 6px;
+  padding-block: 1px;
   padding-inline: clamp(0px, 6vw, 90px);
   row-gap: 16px;
 }
