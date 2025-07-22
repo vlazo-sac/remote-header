@@ -23,7 +23,7 @@ html, body {
   max-width: 1511px;
   margin: 0 auto;
   padding-block: 0.1px;
-  padding-inline: clamp(0px, 6vw, 84px);
+  padding-inline: clamp(0px, 6vw, 83.75px);
   row-gap: 16px;
 }
 
