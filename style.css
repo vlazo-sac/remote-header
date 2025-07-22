@@ -22,8 +22,9 @@ html, body {
   flex-direction: column;
   gap: 0;
   max-width: 1511px;
-  margin: 0 auto; 
-  width: 100%; 
+  margin: 0 auto;
+  width: 100%;
+  padding-inline: clamp(16px, 5vw, 60px); 
 }
 
 .header-top {
@@ -31,12 +32,10 @@ html, body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding-left: clamp(16px, 5vw, 60px); 
-  padding-right: clamp(16px, 5vw, 60px);
 }
 
 .logo {
-  margin-left: 0px; 
+  margin-left: 0; 
 }
 
 .logo img {
