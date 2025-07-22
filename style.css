@@ -23,7 +23,7 @@ html, body {
   max-width: 1511px;
   margin: 0 auto;
   width: 100%;
-  padding-inline: clamp(16px, 5vw, 60px); 
+  padding-inline: clamp(16px, 5vw, 80px); 
 }
 
 .header-top {
@@ -31,10 +31,6 @@ html, body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-}
-
-.logo {
-  margin-left: 0; 
 }
 
 .logo img {
