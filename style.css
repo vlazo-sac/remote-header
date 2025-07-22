@@ -51,7 +51,7 @@ html, body {
 .nav-menu a {
   text-decoration: none;
   color: #242323;
-  font-weight: 80;
+  font-weight: 100;
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.05em;
@@ -65,6 +65,9 @@ html, body {
 .nav-menu a:hover {
   background-color: #1A3D7C;
   color: #F8F6F0;
+  border-radius: 20px;
+  font-weight: 100;
+  transition: background-color 0.3s ease, color 0.3s ease, font-weight 0.3s ease;
 }
 
 @media (max-width: 768px) {
