@@ -16,6 +16,12 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.header-top,
+.nav-menu,
+.logo {
+  outline: 1px dashed red;
+}
+
 .header-inner {
   display: flex;
   flex-direction: column;
@@ -30,9 +36,8 @@ html, body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  padding-inline: clamp(0px, 2vw, 40px); 
-  padding-right: 0;
+  flex-wrap: nowrap;
+  padding-inline: clamp(0px, 4vw, 60px); 
 }
 
 .logo {
