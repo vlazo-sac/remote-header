@@ -24,7 +24,6 @@ html, body {
   margin: 0 auto;
   width: 100%;
   padding-inline: clamp(0px, 2vw, 40px); 
-
 }
 
 .header-top {
@@ -32,7 +31,7 @@ html, body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding-inline: clamp(0px, 0.5vw, 65px); 
+  padding-inline: clamp(0px, 4vw, 60px); 
 }
 
 .logo{
@@ -76,6 +75,16 @@ html, body {
   .header-top {
     flex-direction: column;
     align-items: flex-start; 
+    padding-inline: 0; 
+  }
+
+  .header-inner {
+    padding-inline: 0;
+  }
+  
+  .logo {
+    margin-left: 0;
+    padding-left: 0;
   }
 
   .nav-menu {
