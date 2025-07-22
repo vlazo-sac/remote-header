@@ -33,6 +33,10 @@ html, body {
   flex-wrap: wrap;
 }
 
+.logo {
+  padding-left: clamp(40px, 6vw, 88px);
+}
+
 .logo img {
   width: 332px;
   height: auto;
