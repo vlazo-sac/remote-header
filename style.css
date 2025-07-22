@@ -22,8 +22,8 @@ html, body {
   justify-content: space-between;
   max-width: 1511px;
   margin: 0 auto;
-  padding-block: 0.5px;
-  padding-inline: clamp(0px, 6vw, 85px);
+  padding-block: 0.4px;
+  padding-inline: clamp(0px, 6vw, 84px);
   row-gap: 16px;
 }
 
