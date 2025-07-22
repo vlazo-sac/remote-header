@@ -22,32 +22,23 @@ html, body {
   outline: 1px dashed red;
 }
 
-.header-inner {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  max-width: 1511px;
-  margin: 0 auto;
-  width: 100%;
-  padding-inline: clamp(0px, 2vw, 40px); 
-}
-
-.header-top {
+.header-columns {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: nowrap;
-  padding-inline: clamp(0px, 4vw, 60px); 
+  padding-inline: clamp(0px, 4vw, 60px);
+  max-width: 1511px;
+  margin: 0 auto;
+  height: 140px; /* match Wix vertical space */
 }
 
-.logo {
-  padding: 0;
-  margin: 0;
+.header-logo {
   display: flex;
-  transition: padding 0.2s ease, margin 0.2s ease;
-  }
+  align-items: center;
+}
 
-.logo img {
+.header-logo img {
+  display: block;
   width: 332px;
   height: auto;
   object-fit: contain;
@@ -55,12 +46,9 @@ html, body {
 
 .nav-menu {
   display: flex;
-  flex-wrap: wrap;
-  column-gap: 12px;
-  justify-content: flex-end;
   align-items: center;
-  margin-left: auto;
-  padding-right: 0;
+  justify-content: flex-end;
+  gap: 32px;
 }
 
 .nav-menu a {
