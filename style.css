@@ -31,7 +31,7 @@ html, body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding-left: clamp(16px, 5v2, 60px); 
+  padding-left: clamp(16px, 5vw, 60px); 
   padding-right: clamp(16px, 5vw, 60px);
 }
 
@@ -70,28 +70,17 @@ html, body {
   color: #F8F6F0;
 }
 
-.contact-info {
-  text-align: right;
-  font-size: 14px;
-  font-weight: bold;
-  color: #242323;
-}
-
-.contact-info a {
-  color: #242323;
-  text-decoration: underline;
-  font-weight: bold;
-}
-
 @media (max-width: 767px) {
   .header-top {
     flex-direction: column;
     align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .logo {
+    margin: 0 auto;
   }
   .nav-menu {
     justify-content: center;
-  }
-  .contact-info {
-    text-align: center;
   }
 }
