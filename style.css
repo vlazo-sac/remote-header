@@ -50,8 +50,11 @@ html, body {
 .nav-menu {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 8px;
-  justify-content: flex-end;
+  column-gap: 12px;
+  margin-left: auto;
+  padding-right: clamp(12px, 4vw, 60px);
+  align-items: center;
+  height: 100%;
 }
 
 .nav-menu a {
