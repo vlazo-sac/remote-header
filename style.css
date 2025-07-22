@@ -43,7 +43,7 @@ html, body {
 .nav-menu {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 10px;
   margin-left: auto; 
   margin-top: 0; 
 }
